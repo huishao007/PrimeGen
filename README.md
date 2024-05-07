@@ -19,10 +19,10 @@ The versions listed are all versions used during development. It may be okay to 
 
 ### 2.1 design primer for protein mutation experiment
 
-    python /code/x-multiplex-pcr/seq_search/src/plasmid.py --fasta_path /data/protein_data/Luc.fa  --out_path /data/output/ --gene_name Luc
+    python /seq_search/src/plasmid.py --fasta_path /data/protein_data/Luc.fa  --out_path /data/output/ --gene_name Luc
 ### 2.2 design primer for pathogen analysis experiment
 
-    python /code/x-multiplex-pcr/seq_search/src/MTB_primer_design.py --fasta_path /data/protein_data/MTB.fa --snp_path /data/protein_data/MTB_target_snp.csv  --out_path /data/output/ --gene_name MTB
+    python /seq_search/src/MTB_primer_design.py --fasta_path /data/protein_data/MTB.fa --snp_path /data/protein_data/MTB_target_snp.csv  --out_path /data/output/ --gene_name MTB
 
 
 
